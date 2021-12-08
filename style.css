@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #141530;
+    color: #f2f2f2;
+}
+
+.header-page {
+    width: 800px;
+    height: 800px;
+    background-image: url("img/hero-image.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 100px;
+
+    min-height: 900px;
+    width: 100%;
+}
+
+.header-page div, .skills, .reason{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navigation {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    list-style: none;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navigation li:nth-child(1) {
+    margin-right: 250px;
+}
+
+.navigation a{
+    text-decoration: underline;
+    color: #f2f2f2;
+}
+
+.navigation a:hover{
+    text-decoration:none;
+}
+
+.navigation a:active{
+    color: coral;
+}
+
+.page-tag {
+    margin: 0;
+    margin-top: 260px;
+    color:coral;
+    font-size: 24px;
+}
+
+.name {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-size: 60px;
+}
+
+.intro {
+    margin: 0;
+    background-color: #141524;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    color:coral;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 24px;
+}
+
+.skills-list{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+.expectations {
+    min-height: 400px;
+    background-color: #141524;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+}
+
+.expectations-text {
+    border-left: coral solid 3px;
+    padding-left: 15px;
+}
+
+.expectations-list {
+    padding-top: 10px;
+    list-style-type: square;
+    color: coral;
+}
+
+.expectations-list p{
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.reason {
+    min-height: 400px;
+}
+
+.reason-text strong{
+    color: coral;
+    font-weight: 500;
+}
+
+.reason-text {
+    text-align: justify;
+}
